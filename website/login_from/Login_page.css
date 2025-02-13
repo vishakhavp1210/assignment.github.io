@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Comic+Neue:ital,wght@1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"Comic Neue", cursive;
+}
+body{
+   background-image: url(./img/background_img.jpg);
+   background-size: cover;
+}
+header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.404);
+    height: 100px;
+    align-items: center;
+}
+header h1{
+    color: white;
+    padding: 20px;
+    margin-right:400px;
+    font-size: 3rem;
+}
+header nav{
+    margin-left: 400px;
+}
+nav a{
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    padding-inline: 30px;
+}
+.loginbtn{
+    padding-inline: 50px;
+    padding-block: 10px;
+    font-size: 2rem;
+    border-radius: 15px;
+    margin-left: 40px;
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    transform: scale(1);
+}
+.loginbtn:hover{
+    transform:scale(1.1);
+    background-color: rgba(255, 255, 255, 0.178);
+    border: 3px solid whitesmoke;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+}
+#loginbox{
+    padding: 40px;
+    border: 3px solid rgba(0, 0, 0, 0.336);
+    border-radius: 30px;
+    width: 500px;
+    height:350px;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+.from{
+    justify-items: center;
+}
+.from h1{
+    color: white;
+    padding-bottom: 20px;
+}
+.from input{
+    border-radius: 30px;
+    padding-inline: 20px;
+    margin-bottom: 20px;
+    padding-block: 5px;
+    width: 280px;
+    border: none;
+}
+.from img{
+    position: absolute ;
+    height: 15px;
+    width: 15px;
+    left: 1075px;
+    margin-top: 6px;
+}
+#btn{
+    height: 25px;
+    width: 80px;
+    border-radius:30px;
+    margin-bottom: 20px;  
+    border:none;
+    transform: scale(1);
+}
+#btn:hover{
+    transform: scale(1.1);
+    color:whitesmoke;
+    background-color: rgba(0, 0, 0, 0.041);
+    border: 1px solid whitesmoke;
+}
+.register p{
+    color: white;
+}
+.register a{
+    color: rgba(0, 0, 0, 0.952);
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.register a:hover{
+     font-size: 1.5rem;
+}
